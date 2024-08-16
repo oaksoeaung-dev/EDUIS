@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EDU International School</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="https://kit.fontawesome.com/e1dd7d5abe.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="">
+        <nav class="fixed top-0 z-10 h-20 w-screen bg-white">
+            <div class="container mx-auto flex h-full items-center justify-between">
+                <a href="index.html" class="flex items-center">
+                    <img src="./images/logo.png" class="w-20" />
+                    <h4 class="">EDU International School</h4>
+                </a>
+                <ul class="nav__menu flex items-center gap-16 tablet:fixed tablet:right-[5%] tablet:top-20 tablet:hidden tablet:h-fit tablet:w-72 tablet:flex-col tablet:gap-0 phone:right-[3%]">
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0"><a href="index.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Home</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 200ms"><a href="about.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">About</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 400ms"><a href="course.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Courses</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 600ms"><a href="contact.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Contact</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 700ms"><a href="activity.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Activities</a></li>
+                </ul>
+                <button data-collapse-toggle="navbar-default" type="button" class="toggle relative hidden h-[40px] w-[70px] cursor-pointer items-center justify-center overflow-hidden tablet:flex" aria-controls="navbar-default" aria-expanded="false">
+                    <span id="line1" class="absolute left-[15px] h-[4px] w-[26px] -translate-y-[8px] rounded bg-color1 delay-100 duration-500"></span>
+                    <span id="line2" class="absolute h-[4px] w-[40px] rounded bg-color1 duration-500"></span>
+                    <span id="line3" class="absolute left-[15px] h-[4px] w-[15px] translate-y-[8px] rounded bg-color1 delay-75 duration-500"></span>
+                </button>
+            </div>
+        </nav>
+
+        <section class="contact">
+            <div class="container mx-auto my-28 grid h-[30rem] grid-cols-[30%_70%] gap-16 rounded-[4rem] bg-color2 p-16 tablet:mt-12 tablet:h-auto tablet:grid-cols-[40%_60%] tablet:gap-6 tablet:p-6 phone:mt-0 phone:grid-cols-1 phone:gap-12 phone:p-0">
+                <!-- //contact aside -->
+                <aside class="relative bottom-32 rounded-2xl bg-color1 p-12 tablet:bottom-0 tablet:w-auto tablet:p-6 scroll__top">
+                    <div class="mb-8 w-48">
+                        <img src="./images/contact.svg" />
+                    </div>
+                    <h2 class="mb-4 text-start text-white">Contact Us</h2>
+                    <p class="mb-8 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit</p>
+                    <ul class="contact__detail text-white">
+                        <li class="mb-4 flex items-center gap-4">
+                            <i class="fa-solid fa-phone"></i>
+                            <h5>+95 9 796 079666</h5>
+                        </li>
+                        <li class="mb-4 flex items-center gap-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h5>eduis.programsupport@mvanedu.org</h5>
+                        </li>
+                        <li class="mb-4 flex items-center gap-4">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h5>Place</h5>
+                        </li>
+                    </ul>
+
+                    <ul class="social mt-12 flex gap-3">
+                        <li>
+                            <a href="#" class="rounded-full bg-color4 p-2 text-sm transition-all duration-300 hover:bg-transparent"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-full bg-color4 p-2 text-sm transition-all duration-300 hover:bg-transparent"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-full bg-color4 p-2 text-sm transition-all duration-300 hover:bg-transparent"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="rounded-full bg-color4 p-2 text-sm transition-all duration-300 hover:bg-transparent"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </aside>
+
+                <form action="https://formspree.io/f/mzzpvaey" class="mr-16 flex flex-col gap-5 tablet:mr-6 tablet:self-center phone:my-6 phone:mb-12 phone:mr-0 phone:p-4" method="POST">
+                    <div class="flex gap-5 phone:flex-col">
+                        <input type="text" name="firstname" placeholder="First Name" class="w-1/2 rounded-md bg-color1 p-4 text-white phone:w-full" />
+                        <input type="text" name="lastname" placeholder="Last Name" class="w-1/2 rounded-md bg-color1 p-4 text-white phone:w-full" />
+                    </div>
+                    <input type="email" name="email" placeholder="Your email address" class="w-full rounded-md bg-color1 p-4 text-white" required />
+                    <textarea name="message" rows="3" required placeholder="Message" class="w-full rounded-md bg-color1 p-4 text-white"></textarea>
+                    <button type="submit" class="btn btn-primary mt-4 max-w-fit cursor-pointer hover:bg-color3 hover:text-white">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <!-- End Footer -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/scrollreveal.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EDU International School</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="https://kit.fontawesome.com/e1dd7d5abe.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="">
+        <nav class="fixed top-0 z-10 h-20 w-screen bg-white">
+            <div class="container mx-auto flex h-full items-center justify-between">
+                <a href="index.html" class="flex items-center">
+                    <img src="./images/logo.png" class="w-20" />
+                    <h4 class="">EDU International School</h4>
+                </a>
+                <ul class="nav__menu flex items-center gap-16 tablet:fixed tablet:right-[5%] tablet:top-20 tablet:hidden tablet:h-fit tablet:w-72 tablet:flex-col tablet:gap-0 phone:right-[3%]">
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0"><a href="index.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Home</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 200ms"><a href="about.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">About</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 400ms"><a href="course.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Courses</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 600ms"><a href="contact.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Contact</a></li>
+                    <li class="tablet:h-24 tablet:w-full tablet:origin-top-right tablet:animate-rotateNav tablet:opacity-0" style="animation-delay: 700ms"><a href="activity.html" class="text-sm transition-all duration-300 tablet:grid tablet:h-full tablet:w-full tablet:place-items-center tablet:bg-color1 tablet:text-white tablet:shadow-2xl tablet:hover:bg-color2">Activities</a></li>
+                </ul>
+                <button data-collapse-toggle="navbar-default" type="button" class="toggle relative hidden h-[40px] w-[70px] cursor-pointer items-center justify-center overflow-hidden tablet:flex" aria-controls="navbar-default" aria-expanded="false">
+                    <span id="line1" class="absolute left-[15px] h-[4px] w-[26px] -translate-y-[8px] rounded bg-color1 delay-100 duration-500"></span>
+                    <span id="line2" class="absolute h-[4px] w-[40px] rounded bg-color1 duration-500"></span>
+                    <span id="line3" class="absolute left-[15px] h-[4px] w-[15px] translate-y-[8px] rounded bg-color1 delay-75 duration-500"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Achievement -->
+        <section class="achievement mt-12 tablet:mt-8">
+            <div class="container mx-auto grid grid-cols-[40%_60%] gap-20 tablet:grid-cols-1 tablet:gap-16">
+                <div class="tablet:mx-auto tablet:my-0 tablet:w-4/5 scroll__left">
+                    <img src="./images/about achievements.svg" />
+                </div>
+
+                <div class="scroll__top">
+                    <h1 class="phone:text-center">Achievements</h1>
+                    <p class="mb-10 mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellat molestias dolorem at quo similique iusto illo veniam dolor hic, natus provident voluptates quidem maxime repudiandae ipsam. Necessitatibus, est ex?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit ipsam officiis tempore tenetur. Quia vero facilis cumque assumenda ad a nisi, itaque ea, animi veniam perferendis, quibusdam natus ut!</p>
+                    <!-- Cards -->
+                    <div class="grid grid-cols-3 gap-6 phone:grid-cols-2 phone:gap-3">
+                        <article class="rounded-2xl border border-transparent bg-color1 p-6 text-center text-white transition-all duration-300 hover:border-color1 hover:bg-color4 hover:text-color1 hover:shadow-2xl">
+                            <span class="mb-8 inline-block rounded-2xl bg-color3 p-7 text-2xl"><i class="fa-solid fa-video text-white"></i></span>
+                            <h3>200+</h3>
+                            <p class="mb-10 mt-6">Courses</p>
+                        </article>
+
+                        <article class="rounded-2xl border border-transparent bg-color1 p-6 text-center text-white transition-all duration-300 hover:border-color1 hover:bg-color4 hover:text-color1 hover:shadow-2xl">
+                            <span class="mb-8 inline-block rounded-2xl bg-color3 p-7 text-2xl"><i class="fa-solid fa-users text-white"></i></span>
+                            <h3>200</h3>
+                            <p class="mb-10 mt-6">Students</p>
+                        </article>
+
+                        <article class="rounded-2xl border border-transparent bg-color1 p-6 text-center text-white transition-all duration-300 hover:border-color1 hover:bg-color4 hover:text-color1 hover:shadow-2xl">
+                            <span class="mb-8 inline-block rounded-2xl bg-color3 p-7 text-2xl"><i class="fa-solid fa-award text-white"></i></span>
+                            <h3>20</h3>
+                            <p class="mb-10 mt-6">Awards</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Meet Team -->
+        <section class="team bg-color1 shadow-2xl">
+            <h2 class="mb-16 text-center text-white">Meet Our Teachers</h2>
+            <div class="container mx-auto grid grid-cols-4 gap-8 tablet:grid-cols-3 tablet:gap-6 phone:grid-cols-2 phone:gap-7">
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm1.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm2.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm3.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm4.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm5.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm6.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm7.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+
+                <article class="group relative overflow-hidden border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
+                    <div class="team__member__image">
+                        <img src="./images/tm8.jpg" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    </div>
+                    <div class="team__member__info mt-6 text-center group-hover:text-color4">
+                        <h4>Oak Soe</h4>
+                        <p class="phone:mb-6">Math Teacher</p>
+                    </div>
+                    <div class="social absolute -right-full top-1/2 flex -translate-y-1/2 flex-col rounded-bl-2xl rounded-tl-2xl bg-color4 shadow-2xl transition-all duration-300 group-hover:right-0">
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="p-4" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Start Footer -->
+        <footer class="bg-color1 pt-20 text-sm">
+            <div class="container mx-auto grid grid-cols-4 gap-20 text-white tablet:grid-cols-2 phone:grid-cols-1 phone:gap-8 phone:text-center">
+                <div class="">
+                    <a href="index.html"><h4 class="mb-4">EDU International School</h4></a>
+                    <p class="mx-auto mb-8 phone:my-4">Quality Education, Quality Generations, Quality Community</p>
+                </div>
+
+                <div class="">
+                    <h4 class="mb-5">Permalinks</h4>
+                    <ul class="">
+                        <li class="mb-3"><a href="index.html" class="hover:underline">Home</a></li>
+                        <li class="mb-3"><a href="about.html" class="hover:underline">About</a></li>
+                        <li class="mb-3"><a href="course.html" class="hover:underline">Courses</a></li>
+                        <li class="mb-3"><a href="contact.html" class="hover:underline">Contact</a></li>
+                        <li class="mb-3"><a href="activity.html" class="hover:underline">Activities</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h4 class="mb-5">Contact Us</h4>
+                    <div>
+                        <p>+95 9 796 079666</p>
+                        <p>eduis.programsupport@mvanedu.org</p>
+                    </div>
+
+                    <ul class="footer__socials mt-8 flex gap-4 text-xl phone:justify-center">
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright mt-16 border-t border-t-color4 py-5 text-center text-white">
+                <small>Copyright &copy; EDU International School</small>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/scrollreveal.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
