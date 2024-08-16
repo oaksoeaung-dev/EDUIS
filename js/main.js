@@ -15,6 +15,7 @@ menuToggle.addEventListener("click", () => {
     });
 
     document.querySelector(".nav__menu").classList.toggle("tablet:hidden");
+    document.querySelector(".nav__menu").classList.toggle("tablet:flex");
 });
 
 window.addEventListener("scroll", () => {

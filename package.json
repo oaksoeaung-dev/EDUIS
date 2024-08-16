@@ -5,7 +5,7 @@
     "tailwindcss": "^3.4.10"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch"
   },
   "dependencies": {
     "scrollreveal": "^4.0.9"
