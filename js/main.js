@@ -58,79 +58,79 @@ var swiper = new Swiper(".testimonial-swiper", {
 });
 
 const sr = ScrollReveal({
-    origin: 'bottom',
-    distance: '60px',
+    origin: "bottom",
+    distance: "60px",
     duration: 3000,
     delay: 600,
     reset: true, // resets animation
 });
 
-sr.reveal('.scroll__left',{
+sr.reveal(".scroll__left", {
     delay: 100,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'left',
+    origin: "left",
 });
 
-sr.reveal('.scroll__right',{
+sr.reveal(".scroll__right", {
     delay: 100,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'right',
+    origin: "right",
 });
 
-sr.reveal('.scroll__top',{
+sr.reveal(".scroll__top", {
     delay: 100,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__bottom',{
+sr.reveal(".scroll__bottom", {
     delay: 100,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'bottom',
+    origin: "bottom",
 });
 
-sr.reveal('.scroll__badge1',{
+sr.reveal(".scroll__badge1", {
     delay: 100,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__badge2',{
+sr.reveal(".scroll__badge2", {
     delay: 200,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__badge3',{
+sr.reveal(".scroll__badge3", {
     delay: 300,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__badge4',{
+sr.reveal(".scroll__badge4", {
     delay: 400,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__badge5',{
+sr.reveal(".scroll__badge5", {
     delay: 500,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
 
-sr.reveal('.scroll__badge6',{
+sr.reveal(".scroll__badge6", {
     delay: 600,
-    distance: '100px',
+    distance: "100px",
     interval: 100,
-    origin: 'top',
+    origin: "top",
 });
