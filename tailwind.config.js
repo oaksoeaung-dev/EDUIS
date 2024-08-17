@@ -6,7 +6,7 @@ module.exports = {
             colors: {
                 color1: "#172554", //bluedark
                 color2: "#1e3a8a", //bluesoft
-                color3: "#d2a01b", //gold
+                color3: "#f59e0b", //gold
                 color4: "#f9fafb", //white
             },
             fontFamily: {

@@ -67,70 +67,70 @@ const sr = ScrollReveal({
 
 sr.reveal('.scroll__left',{
     delay: 100,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'left',
 });
 
 sr.reveal('.scroll__right',{
     delay: 100,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'right',
 });
 
 sr.reveal('.scroll__top',{
     delay: 100,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__bottom',{
     delay: 100,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'bottom',
 });
 
 sr.reveal('.scroll__badge1',{
     delay: 100,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__badge2',{
     delay: 200,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__badge3',{
     delay: 300,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__badge4',{
     delay: 400,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__badge5',{
     delay: 500,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
 
 sr.reveal('.scroll__badge6',{
     delay: 600,
-    distance: '200px',
+    distance: '100px',
     interval: 100,
     origin: 'top',
 });
