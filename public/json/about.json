@@ -1,0 +1,82 @@
+{
+    "welcome_section": {
+        "heading": "Welcome to EDU International School!",
+        "content": "Our EDU International School is an UK Pearson Edexcel approved center and teaches in accordance with international standards. Our school not only teaches academic subjects, but also skills and extracurriculars that students need to know according to their age. At EDU International School, we are dedicated to providing an exceptional education that prepares students for a future. Our team of highly qualified, international educators brings diverse expertise and innovative teaching methods to inspire and challenge your child. With a curriculum that emphasizes critical thinking and cultural awareness, we ensure that each student is equipped to excel in an interconnected with the world. Choose EDU International School for an international standard education that nurtures your child's potential and sets the stage for lifelong success.",
+        "image": "students.svg",
+        "overall_count": {
+            "1": {
+                "count": "10+",
+                "name": "Classes",
+                "color": "bg-sky-600",
+                "icon": "fi fi-rs-school"
+            },
+            "2": {
+                "count": "100+",
+                "name": "Students",
+                "color": "bg-rose-600",
+                "icon": "fi fi-rs-users-alt"
+            },
+            "3": {
+                "count": "20+",
+                "name": "Teachers",
+                "color": "bg-green-600",
+                "icon": "fi fi-rs-chalkboard-user"
+            }
+        }
+    },
+    "about_educator_section": {
+        "heading": "Experienced and Passionate Educator",
+        "content": "At EDU International School, we believe that exceptional education starts with exceptional educators. Our team of experienced and passionate teachers is dedicated to fostering a love of learning and helping students reach their full potential.Our educators bring a wealth of knowledge and expertise to the classroom. Each teacher is highly qualified, holding advanced degrees and certifications in their respective fields. They possess extensive experience in teaching and are committed to staying current with the latest educational research and best practices.Our educators are not just teaching subjects; they are inspiring and motivating students to explore their interests and achieve their goals. Join us at EDU International School, where dedicated educators make a difference every day, shaping the future of our students and our world.",
+        "image": "teaching.svg"
+    },
+    "about_online_learning_section": {
+        "heading": "Seamless Online Learning with Microsoft Teams",
+        "content": "At EDU International School, we leverage Microsoft Teams to deliver an exceptional online learning experience that combines flexibility, collaboration, and innovation. Microsoft Teams is at the heart of our digital classroom, providing a robust platform that supports our commitment to academic excellence and global connectivity. Through individual chat or private meetings, educators can address specific questions, review assignments, and offer constructive feedback. This one-on-one interaction helps students understand their progress and areas for improvement, ensuring they receive the guidance they need to succeed.",
+        "image": "onlinelearning.svg"
+    },
+    "about_classrooms_section": {
+        "heading": "Innovative Classrooms",
+        "content": "At EDU International School, our classrooms are designed to be dynamic learning environments that foster academic excellence, creativity, and collaboration. Each classroom is thoughtfully designed to support our international curriculum and provide students with the tools and opportunities they need to succeed.",
+        "image": "classroom.svg"
+    },
+    "team_section": {
+        "heading": "Our Management Team",
+        "members": {
+            "1": {
+                "name": "Daw Kyan De",
+                "position": "Managing Director",
+                "image": "kyande.jpg"
+            },
+            "2": {
+                "name": "Mr. Samarvan Sampurna Gurung",
+                "position": "Head Of School",
+                "image": "samarvansampurnagurung.jpg"
+            },
+            "3": {
+                "name": "Daw Aeint Chan Myae",
+                "position": "Second Head Of School",
+                "image": "aientchanmyae.jpg"
+            },
+            "4": {
+                "name": "Daw Htet Htet Waing",
+                "position": "Preschool Dean",
+                "image": "htethtetwaing.jpg"
+            },
+            "5": {
+                "name": "U Myo Htet Kaung",
+                "position": "Operation Manager",
+                "image": "myohtetkaung.jpg"
+            },
+            "6": {
+                "name": "Ms. Sushmita Rai",
+                "position": "Secondary Dean",
+                "image": "sushmitarai.jpg"
+            },
+            "7": {
+                "name": "Daw Yu Hlaing Khant",
+                "position": "Primary Dean",
+                "image": "yuhlaingkhant.jpg"
+            }
+        }
+    }
+}

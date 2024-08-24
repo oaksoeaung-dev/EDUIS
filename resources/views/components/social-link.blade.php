@@ -1,0 +1,1 @@
+<a {{ $attributes }} target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-transparent bg-color4 text-sm transition-all duration-300 hover:border-white hover:bg-transparent hover:text-white">{{ $slot }}</a>

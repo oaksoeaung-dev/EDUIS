@@ -1,0 +1,117 @@
+{
+    "header_section": {
+        "heading": "Welcome to our <span class='font-bold'>EDU International School</span>! EDU is a international school based in Myanmar, offering academic excellence in a caring environment to students mainly from Myanmar. EDU is located at Pwin Oo Lwin, a very beautiful hilly town, in Mandalay Division.",
+        "cover": "cover.jpg"
+    },
+    "overview_about_section": {
+        "heading": "Our School's Vision",
+        "content": "Be a sustainable international school to build a vibrant community with intellectual and innovative generations.",
+        "obvious_badge": {
+            "1": {
+                "name": "<p>Pearson Edexcel Aproval Centre Certificate</p><p>Center Number : 96932</p>",
+                "icon": "fi fi-rs-badget-check-alt",
+                "color": "bg-teal-600"
+            },
+            "2": {
+                "name": "Experienced and Passionate Educators",
+                "icon": "fi fi-rs-chalkboard-user",
+                "color": "bg-rose-600"
+            },
+            "3": {
+                "name": "Virtual Classrooms Powered By Microsoft Teams",
+                "icon": "fi fi-rs-lesson",
+                "color": "bg-cyan-600"
+            },
+            "4": {
+                "name": "International Perspective",
+                "icon": "fi fi-rs-world",
+                "color": "bg-green-600"
+            },
+            "5": {
+                "name": "Teamwork and Leadership Development",
+                "icon": "fi fi-rs-leadership",
+                "color": "bg-indigo-600"
+            },
+            "6": {
+                "name": "Physical Education Curriculum",
+                "icon": "fi fi-rs-dumbbell-weightlifting",
+                "color": "bg-yellow-600"
+            }
+        }
+    },
+    "overview_classes_section": {
+        "heading": "Our Courses"
+    },
+    "faqs_section": {
+        "heading": "Frequently Asked Questions",
+        "questions": {
+            "1": {
+                "question": "How do I know the right course for me ?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione consectetur eveniet amet ipsam non vitae magnam quaerat eaque ad ab magni nisi, quas ullam labore dolore quam! Commodi, fuga.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus sapiente tempora itaque asperiores quis similique, voluptate explicabo, cumque inventore, quae sint dicta assumenda rem eius accusamus doloremque sequi placeat. Libero."
+            },
+            "2": {
+                "question": "How do I know the right course for me ?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione consectetur eveniet amet ipsam non vitae magnam quaerat eaque ad ab magni nisi, quas ullam labore dolore quam! Commodi, fuga.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus sapiente tempora itaque asperiores quis similique, voluptate explicabo, cumque inventore, quae sint dicta assumenda rem eius accusamus doloremque sequi placeat. Libero."
+            }
+        }
+    },
+    "testimonials_section": {
+        "heading": "Student's Testimonials",
+        "testimonials": {
+            "1": {
+                "image": "hudson.jpg",
+                "name": "Hudson",
+                "grade": "Primary 6",
+                "testimonial": "I like EDU International School because the teachers stay calm and never show anger. They teach us good manners, help us learn, and encourage us to take responsibility."
+            },
+            "2": {
+                "image": "jacob.jpg",
+                "name": "Jacob",
+                "grade": "Primary 3",
+                "testimonial": "I like the school because the building is colourful and fun. The school bus is cool, and I enjoy riding it. Also, the teachers are nice and always help us when we need it."
+            },
+            "3": {
+                "image": "jane.jpg",
+                "name": "Jane",
+                "grade": "Secondary 3",
+                "testimonial": "During the past 2 months at EDU International School, I have seen remarkable improvements in my English skills, social abilities, and overall growth. The teachers at EDU are incredibly patient and attentive to each student, providing excellent instruction. My time at this school has been filled with wonderful a deep appreciation for the quality of education provided here."
+            },
+            "4": {
+                "image": "chloe.jpg",
+                "name": "Chloe",
+                "grade": "Senior Preschooler",
+                "testimonial": "I likes brushing my teeth at school and I enjoys answering the questions the teachers ask during lessons."
+            },
+            "5": {
+                "image": "shania.jpg",
+                "name": "Shania",
+                "grade": "Primary 2",
+                "testimonial": "I love my school because the building has lots of cool rooms and spaces. I also love the school playground and basketball field. P.E. is my favorite because I enjoy doing exercises. The teachers are friendly and I have lots of fun with my friends. It’s a great place to be!"
+            },
+            "6": {
+                "image": "lewis.jpg",
+                "name": "Lewis",
+                "grade": "Primary 2",
+                "testimonial": "I'm in primary 2 at EDU international school. The teachers are nice and helpful. I really like STEAM because we can do fun experiments. The playground is big, and I’ve made good friends here. It’s a good school where I feel happy."
+            },
+            "7": {
+                "image": "mable.jpg",
+                "name": "Mable",
+                "grade": "Graduate",
+                "testimonial": "I am so happy to be studying at EDU International School because all the teachers take care of me and help a lot in my education. Playing games with teachers and friends makes me happy. So I want to come to school every day."
+            },
+            "8": {
+                "image": "sophia.jpg",
+                "name": "Sophia",
+                "grade": "Primary 5",
+                "testimonial": "I really like this school because the teachers are very nice and kind.I like and respect this school a lot and I've learned so much new things. I'm very happy that I found a school like this."
+            },
+            "9": {
+                "image": "sofia.jpg",
+                "name": "Sofia",
+                "grade": "Primary 4",
+                "testimonial": "My name is Sofia. I study in Primary 4. My School name is EDU International School. It is located in Pyin Oo Lwin. I love my school because teachers are outstanding, great, qualified, friendly and helpful. My school has a big playground and students are given opportunity to excel in sports. My school is like a home. It is a place where I learn, laugh, smile, play and enjoy. I am very happy with EDU INTERNATIONAL SCHOOL."
+            }
+        }
+    }
+}

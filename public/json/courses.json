@@ -1,0 +1,38 @@
+{
+    "Junior Preschooler": {
+        "subjects": ["Literacy", "Phonics", "Science", "Maths", "Arts& Crafts", "Story", "Rhyme", "Physical Education", "Outdoor playing"]
+    },
+    "Senior Preschooler": {
+        "subjects": ["Tracing", "Phonics", "Science", "Maths", "English", "Arts& Crafts", "Physical Education", "Outdoor playing"]
+    },
+    "Graduate": {
+        "subjects": ["English", "Maths", "Science", "Myanmar", "STEAM", "ESL", "Ethics&Moral", "Physical Education", "Arts", "Library", "Outdoor activities"]
+    },
+    "Primary 1": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Primary 2": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Primary 3": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Primary 4": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Primary 5": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Primary 6": {
+        "subjects": ["English", "Maths", "Science", "ICT", "Social Studies", "STEAM", "ESL", "Chinese", "Myanmar", "Ethics & Moral", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Secondary 1": {
+        "subjects": ["English", "Maths", "Science", "Chemistry", "Bio", "ICT", "STEAM", "Chinese", "Social Studies", "Myanmar", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Secondary 2": {
+        "subjects": ["English", "Maths", "Science", "Chemistry", "Bio", "ICT", "STEAM", "Chinese", "Social Studies", "Myanmar", "Myanmar History", "Music", "Physical Education"]
+    },
+    "Secondary 3": {
+        "subjects": ["English", "Maths", "Science", "Chemistry", "Bio", "ICT", "STEAM", "Chinese", "Social Studies", "Myanmar", "Myanmar History", "Music", "Physical Education"]
+    }
+}

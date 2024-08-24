@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-    content: ["./*.{html,js}", "./js/*.js"],
+export default {
+    content: ["./resources/**/*.blade.php", "./resources/**/*.js", "./resources/**/*.vue", "./public/js/*.js", "./public/json/*.json"],
     theme: {
         extend: {
             colors: {
@@ -14,7 +14,7 @@ module.exports = {
             },
             screens: {
                 tablet: { max: "1024px" },
-                phone: {max : "600px"}
+                phone: { max: "600px" },
             },
             animation: {
                 rotateNav: "rotateNav 400ms linear forwards",
