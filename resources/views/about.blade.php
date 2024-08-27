@@ -71,11 +71,11 @@
     {{-- Start Team Section --}}
     <section class="team bg-color1 shadow-2xl">
         <h2 class="mb-16 text-center text-white">{!! $about_data["team_section"]["heading"] !!}</h2>
-        <div class="container mx-auto grid grid-cols-4 gap-8 tablet:grid-cols-3 tablet:gap-6 phone:grid-cols-2 phone:gap-7">
+        <div class="container mx-auto grid grid-cols-3 gap-8 tablet:grid-cols-3 tablet:gap-6 phone:grid-cols-2 phone:gap-7">
             @foreach ($about_data["team_section"]["members"] as $member)
                 <article class="group relative overflow-hidden rounded-lg border border-transparent bg-color4 p-8 transition-all duration-300 hover:border-color4 hover:bg-transparent tablet:p-4 phone:p-0">
-                    <div class="overflow-hidden rounded-lg w-full h-96">
-                        <img src="{{ asset("images/aboutSection/teamMembers/" . $member["image"]) }}" class="saturate-0 transition-all duration-300 group-hover:saturate-100" />
+                    <div class="h-96 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset("images/aboutSection/teamMembers/" . $member["image"]) }}" class="h-full w-full object-contain transition-all duration-300 group-hover:saturate-100" />
                     </div>
                     <div class="mt-6 text-center group-hover:text-color4">
                         <h4>{!! $member["name"] !!}</h4>

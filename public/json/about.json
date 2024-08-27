@@ -58,24 +58,19 @@
                 "image": "aientchanmyae.jpg"
             },
             "4": {
-                "name": "Daw Htet Htet Waing",
-                "position": "Preschool Dean",
-                "image": "htethtetwaing.jpg"
-            },
-            "5": {
                 "name": "U Myo Htet Kaung",
                 "position": "Operation Manager",
                 "image": "myohtetkaung.jpg"
             },
-            "6": {
-                "name": "Ms. Sushmita Rai",
-                "position": "Secondary Dean",
-                "image": "sushmitarai.jpg"
-            },
-            "7": {
+            "5": {
                 "name": "Daw Yu Hlaing Khant",
                 "position": "Primary Dean",
                 "image": "yuhlaingkhant.jpg"
+            },
+            "6": {
+                "name": "Daw Htet Htet Waing",
+                "position": "Preschool Dean",
+                "image": "htethtetwaing.jpg"
             }
         }
     }

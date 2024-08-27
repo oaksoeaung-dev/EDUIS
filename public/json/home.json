@@ -111,6 +111,24 @@
                 "name": "Sofia",
                 "grade": "Primary 4",
                 "testimonial": "My name is Sofia. I study in Primary 4. My School name is EDU International School. It is located in Pyin Oo Lwin. I love my school because teachers are outstanding, great, qualified, friendly and helpful. My school has a big playground and students are given opportunity to excel in sports. My school is like a home. It is a place where I learn, laugh, smile, play and enjoy. I am very happy with EDU INTERNATIONAL SCHOOL."
+            },
+            "10": {
+                "image": "didi.jpg",
+                "name": "Di Di",
+                "grade": "Primary 1",
+                "testimonial": "I love EDU because they speak in Englsih. That's why I like so much.I love my teacher ,they teach me very friendly."
+            },
+            "11": {
+                "image": "iris.jpg",
+                "name": "Iris",
+                "grade": "Secondary 1",
+                "testimonial": "The kids have been given support and encouragement, and the campus activities are created with passion.I think choosing EDU international school is a good idea !"
+            },
+            "12": {
+                "image": "alison.jpg",
+                "name": "Alison",
+                "grade": "Secondary 1",
+                "testimonial": "This school is overall a nice place.The teachers kind to the students and the students are also friendly. I like the subjects and the teachers that teach them. I also like the fact that we get 10 mins break after each period."
             }
         }
     }
