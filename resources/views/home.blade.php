@@ -1,12 +1,12 @@
 @extends("layouts.main")
 @section("content")
     {{-- Start Header Section --}}
-    <header class="relative top-20 mb-16 h-[100vh] overflow-hidden bg-no-repeat tablet:mb-20 tablet:h-[52vh] phone:mb-0 phone:h-screen" style="background-image: url('{{ asset("images/homeSection/" . $home_data["header_section"]["cover"]) }}'); background-size: 100% auto">
-        <div class="relative h-full bg-gray-950/55 tablet:pb-12 phone:mt-0 phone:bg-blue-950 phone:pb-0 phone:text-center">
+    <header class="relative top-20 mb-16 h-[100vh] overflow-hidden bg-cover bg-fixed bg-no-repeat tablet:mb-20 tablet:h-[52vh] phone:mb-0 phone:h-screen" style="background-image: url('{{ asset("images/homeSection/" . $home_data["header_section"]["cover"]) }}'); background-size: 100% auto">
+        <div class="relative h-full bg-gray-950/30 tablet:pb-12 phone:mt-0 phone:bg-blue-950 phone:pb-0 phone:text-center">
             <div class="hidden tablet:hidden phone:block">
                 <img src="./images/homeSection/{{ $home_data["header_section"]["cover"] }}" />
             </div>
-            <div class="scroll__left absolute top-1/2 w-1/2 -translate-y-1/2 ps-40 text-white tablet:w-full tablet:p-4 phone:mb-5 phone:w-full phone:p-4">
+            <div class="scroll__left absolute top-1/2 w-1/2 -translate-y-1/2 ps-40 text-white tablet:w-full tablet:p-4 phone:mb-5 phone:mt-10 phone:w-full phone:p-4">
                 <h1 class="">{{ env("APP_SOLOGRAM", "Laravel") }}</h1>
                 <p class="mb-11 mt-4">{!! $home_data["header_section"]["heading"] !!}</p>
             </div>

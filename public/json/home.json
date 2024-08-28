@@ -1,7 +1,7 @@
 {
     "header_section": {
         "heading": "Welcome to our <span class='font-bold'>EDU International School</span>! EDU is a international school based in Myanmar, offering academic excellence in a caring environment to students mainly from Myanmar. EDU is located at Pwin Oo Lwin, a very beautiful hilly town, in Mandalay Division.",
-        "cover": "cover.jpg"
+        "cover": "cover2.jpg"
     },
     "overview_about_section": {
         "heading": "Our School's Vision",
@@ -46,12 +46,32 @@
         "heading": "Frequently Asked Questions",
         "questions": {
             "1": {
-                "question": "How do I know the right course for me ?",
-                "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione consectetur eveniet amet ipsam non vitae magnam quaerat eaque ad ab magni nisi, quas ullam labore dolore quam! Commodi, fuga.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus sapiente tempora itaque asperiores quis similique, voluptate explicabo, cumque inventore, quae sint dicta assumenda rem eius accusamus doloremque sequi placeat. Libero."
+                "question": "What classes are there at school ?",
+                "answer": "We have Primary-1 (Year-1) to Secondary-3 (Year-9). We also have a preschool."
             },
             "2": {
-                "question": "How do I know the right course for me ?",
-                "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione consectetur eveniet amet ipsam non vitae magnam quaerat eaque ad ab magni nisi, quas ullam labore dolore quam! Commodi, fuga.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus sapiente tempora itaque asperiores quis similique, voluptate explicabo, cumque inventore, quae sint dicta assumenda rem eius accusamus doloremque sequi placeat. Libero."
+                "question": "Are there enough teachers ? What kinds of teachers are appointed ?",
+                "answer": "Our school has a sufficient number of teachers. We employ qualified local teachers as well as foreign teachers."
+            },
+            "3": {
+                "question": "What curriculum is used ? What subjects are taught as extra curriculum ?",
+                "answer": "Our school uses Pearson Edexcel (UK) Curriculum, which is an internationally recognized curriculum. For extra curriculum activities, we offer ESL, STEAM, Physical Education, Music and Chinese language that will greatly benefit the students."
+            },
+            "4": {
+                "question": "Where is the school located ?",
+                "answer": "Our school is located at No (160), Old Cherry Road, No (6) Quarter, Pyin Oo Lwin, Mandalay Division, Myanmar."
+            },
+            "5": {
+                "question": "What is the student to teacher ratio ?",
+                "answer": "One class teacher and two assistant teachers are placed in a classroom. Only fifteen students are allowed in a classroom."
+            },
+            "6": {
+                "question": "How does the school deal with students having difficulties in lessons ?",
+                "answer": "For students who have difficulty with lessons, extra time classes are provided if necessary. The school emphasizes that students attending EDU International School do not have to take additional classes outside of school."
+            },
+            "7": {
+                "question": "What measures have been taken to ensure the safety of students ?",
+                "answer": "For the safety of students, fire extinguishers and fire safety systems, CCTVs installed in classrooms and corridors, and 24-hour security staff have been implemented."
             }
         }
     },
