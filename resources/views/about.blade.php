@@ -4,7 +4,7 @@
     <section class="mt-12 tablet:mt-8">
         <div class="container mx-auto grid grid-cols-[40%_60%] gap-20 tablet:grid-cols-1 tablet:gap-16">
             <div class="scroll__top tablet:mx-auto tablet:my-0 tablet:w-4/5">
-                <img src="{{ asset("images/aboutSection/" . $about_data["welcome_section"]["image"]) }}" />
+                <img src="{{ asset("images/aboutSection/" . $about_data["welcome_section"]["image"]) }}" class="w-full rounded-[20px] rounded-br-[50px] rounded-tl-[100px]" />
             </div>
 
             <div class="">
@@ -34,7 +34,7 @@
             </div>
 
             <div class="scroll__right place-self-end tablet:mx-auto tablet:my-0 tablet:w-4/5 phone:place-self-auto">
-                <img src="{{ asset("images/aboutSection/" . $about_data["about_educator_section"]["image"]) }}" class="w-[600px]" />
+                <img src="{{ asset("images/aboutSection/" . $about_data["about_educator_section"]["image"]) }}" class="h-[700px] w-[600px] overflow-hidden rounded-3xl" />
             </div>
         </div>
     </section>
@@ -44,7 +44,7 @@
     <section class="mt-12 tablet:mt-8">
         <div class="container mx-auto grid grid-cols-[40%_60%] gap-20 tablet:grid-cols-1 tablet:gap-16">
             <div class="scroll__left tablet:mx-auto tablet:my-0 tablet:w-4/5">
-                <img src="{{ asset("images/aboutSection/" . $about_data["about_online_learning_section"]["image"]) }}" />
+                <img src="{{ asset("images/aboutSection/" . $about_data["about_online_learning_section"]["image"]) }}" class="overflow-hidden rounded-[30px] rounded-bl-[80px] rounded-tr-[100px]" />
             </div>
             <div class="scroll__top">
                 <h1 class="phone:text-center">{!! $about_data["about_online_learning_section"]["heading"] !!}</h1>
@@ -62,7 +62,7 @@
                 <p class="mb-10 mt-6">{!! $about_data["about_classrooms_section"]["content"] !!}</p>
             </div>
             <div class="scroll__left place-self-end tablet:mx-auto tablet:my-0 tablet:w-4/5 phone:place-self-auto">
-                <img src="{{ asset("images/aboutSection/" . $about_data["about_classrooms_section"]["image"]) }}" class="w-[500px]" />
+                <img src="{{ asset("images/aboutSection/" . $about_data["about_classrooms_section"]["image"]) }}" class="w-[600px] overflow-hidden rounded-[20px] rounded-tr-[100px]" />
             </div>
         </div>
     </section>
