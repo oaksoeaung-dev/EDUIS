@@ -48,26 +48,16 @@
                 "image": "kyande.jpg"
             },
             "2": {
-                "name": "Mr. Samarvan Sampurna Gurung",
-                "position": "Head Of School",
-                "image": "samarvansampurnagurung.jpg"
-            },
-            "3": {
                 "name": "Daw Aeint Chan Myae",
                 "position": "Second Head Of School",
                 "image": "aientchanmyae.jpg"
             },
-            "4": {
+            "3": {
                 "name": "U Myo Htet Kaung",
                 "position": "Operation Manager",
                 "image": "myohtetkaung.jpg"
             },
-            "5": {
-                "name": "Daw Yu Hlaing Khant",
-                "position": "Primary Dean",
-                "image": "yuhlaingkhant.jpg"
-            },
-            "6": {
+            "4": {
                 "name": "Daw Htet Htet Waing",
                 "position": "Preschool Dean",
                 "image": "htethtetwaing.jpg"
